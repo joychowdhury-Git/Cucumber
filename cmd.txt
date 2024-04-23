@@ -1,0 +1,3 @@
+QA: mvn clean verify -Dbrowser=Chrome -Dcucumber.options="--tags @Regression"
+PROD Command: mvn clean verify -Denvironment=PROD -Dbrowser=Chrome -DCCNumber=4111111111111111 -DCVV=290 -DADSSLOCUSERNAME=adss2019lat@gmail.com -DADSSLOCPASSWORD=test123 -DADITUSERNAME=abcd -DADITPASSWORD
+=1234 -Dcucumber.options="--tags @Smoke" -DADSSNONLOCUSERNAME=adsss6@yahoo.com -DADSSNONLOCPASSWORD=test123
